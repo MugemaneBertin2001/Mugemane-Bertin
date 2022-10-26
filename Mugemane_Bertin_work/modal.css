@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+}
+nav{
+    background-color: #fff;
+    height: auto;
+    padding: 1.2%;
+    display: flex;
+}
+nav div{
+    width: 30%;
+    height: auto;
+    padding-bottom: 3px;
+    font-size: 80%;
+    font-weight:bold ;
+}
+nav div:hover{
+    color:  rgb(27, 125, 204);
+    cursor: pointer;
+}
+nav #logo h1{
+    font-size: 30px;
+
+}
+nav #logo h1 span{
+    font-size :20px; 
+    color: #fff;
+}
+nav #logo p{
+font-size:80%;
+text-align:left;
+}
+#content{
+  background-color: rgb(27, 125, 204);
+  height: 81.8vh;
+  display: flex;
+  padding-bottom:10px ;
+    
+}
+#content div{
+    width: 50%;
+    padding: 2%;
+}
+#content div p{
+    width: 70%;
+    margin: 0 10% 0;
+    color: #fff;
+    font-size: 18px;
+
+}
+#content div h3,
+#content div button,
+#content div h5{
+    color:white;
+    font-size: 22px;
+    width:70% ;
+    margin:7% 10% 0 ;
+}
+#content div h5{
+    font-size: 15px;
+}
+#content div button{
+    font-size: 15px;
+    height: 8vh;
+    background-color: rgb(65, 241, 109);
+    font-weight: 500;
+    margin-top: 15%;
+}
+#content #image img{
+    width: 100%;
+}
+@media screen and (max-widht:1054px){
+
+    #content #image{
+        display: none;
+    }
+}
